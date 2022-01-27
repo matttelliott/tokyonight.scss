@@ -1,0 +1,27 @@
+{
+  "name": "tokyo-night-bs",
+  "version": "1.0.0",
+  "description": "Bootstrapa theme based on tokyonight",
+  "main": "tokyo-night.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matttelliott/tokyo-night-bs.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "tokyonight",
+    "scss"
+  ],
+  "author": "Matt T Elliott <matt@matttelliott.com> (https://matttelliott.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matttelliott/tokyo-night-bs/issues"
+  },
+  "homepage": "https://github.com/matttelliott/tokyo-night-bs#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
