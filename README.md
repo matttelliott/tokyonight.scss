@@ -2,6 +2,7 @@
 
 ### Bootstrap theme based on [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 
+## [Demo](https://matttelliott.github.io/tokyonight.scss)
 
 ## Usage
 
