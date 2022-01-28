@@ -1,5 +1,5 @@
 {
-  "name": "tokyonight.scss",
+  "name": "@matttelliott/tokyonight.scss",
   "version": "1.0.0",
   "description": "Bootstrapa theme based on tokyonight",
   "main": "tokyo-night.scss",
