@@ -23,8 +23,7 @@
   "homepage": "https://github.com/matttelliott/tokyonight.scss#readme",
   "dependencies": {
     "@fontsource/dejavu-mono": "^4.5.2",
-    "bootstrap": "^5.1.3",
-    "dejavu-sans": "^1.0.0",
-    "typeface-source-code-pro": "^1.1.13"
+    "@khanacademy/tota11y": "^0.2.0",
+    "bootstrap": "^5.1.3"
   }
 }

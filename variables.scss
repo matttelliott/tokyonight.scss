@@ -4,35 +4,35 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 // Color system
-$tokyonight_bg_dark: #1f2335;
 $tokyonight_bg: #24283b;
+$tokyonight_bg_dark: #1f2335;
 $tokyonight_bg_highlight: #292e42;
-$tokyonight_terminal_black: #414868;
-$tokyonight_fg: #c0caf5;
-$tokyonight_fg_dark: #a9b1d6;
-$tokyonight_fg_gutter: #3b4261;
-$tokyonight_dark3: #545c7e;
-$tokyonight_comment: #565f89;
-$tokyonight_dark5: #737aa2;
 $tokyonight_blue0: #3d59a1;
-$tokyonight_blue: #7aa2f7;
-$tokyonight_cyan: #7dcfff;
 $tokyonight_blue1: #2ac3de;
 $tokyonight_blue2: #0db9d7;
 $tokyonight_blue5: #89ddff;
 $tokyonight_blue6: #b4f9f8;
 $tokyonight_blue7: #394b70;
-$tokyonight_magenta: #bb9af7;
-$tokyonight_magenta2: #ff007c;
-$tokyonight_purple: #9d7cd8;
-$tokyonight_orange: #ff9e64;
-$tokyonight_yellow: #e0af68;
-$tokyonight_green: #9ece6a;
+$tokyonight_blue: #7aa2f7;
+$tokyonight_comment: #565f89;
+$tokyonight_cyan: #7dcfff;
+$tokyonight_dark3: #545c7e;
+$tokyonight_dark5: #737aa2;
+$tokyonight_fg: #c0caf5;
+$tokyonight_fg_dark: #a9b1d6;
+$tokyonight_fg_gutter: #3b4261;
 $tokyonight_green1: #73daca;
 $tokyonight_green2: #41a6b5;
-$tokyonight_teal: #1abc9c;
-$tokyonight_red: #f7768e;
+$tokyonight_green: #9ece6a;
+$tokyonight_magenta2: #ff007c;
+$tokyonight_magenta: #bb9af7;
+$tokyonight_orange: #ff9e64;
+$tokyonight_purple: #9d7cd8;
 $tokyonight_red1: #db4b4b;
+$tokyonight_red: #f7768e;
+$tokyonight_teal: #1abc9c;
+$tokyonight_terminal_black: #414868;
+$tokyonight_yellow: #e0af68;
 
 // scss-docs-start gray-color-variables
 $white: $tokyonight_fg !default;
@@ -69,7 +69,7 @@ $blue: $tokyonight_blue !default;
 $indigo: $tokyonight_blue1 !default;
 $purple: $tokyonight_purple !default;
 $pink: $tokyonight_red !default;
-$red: $tokyonight_red1 !default;
+$red: $tokyonight_red !default;
 $orange: $tokyonight_orange !default;
 $yellow: $tokyonight_yellow !default;
 $green: $tokyonight_green !default;
@@ -98,7 +98,7 @@ $colors: (
 // scss-docs-start theme-color-variables
 $light: $tokyonight_fg_dark !default;
 $dark: $tokyonight_bg_dark !default;
-$primary: $tokyonight_dark3 !default;
+$primary: $tokyonight_bg_highlight !default;
 $secondary: $light !default;
 $success: $green !default;
 $info: $purple !default;
@@ -617,7 +617,7 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-monospace: 'DejaVu Mono', 'Source Code Pro', SFMono-Regular, Menlo,
+$font-family-monospace: 'DejaVu Mono', SFMono-Regular, Menlo,
   Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
 $font-family-sans-serif: $font-family-monospace !default;
 // stylelint-enable value-keyword-case
@@ -836,7 +836,7 @@ $btn-font-weight: $font-weight-normal !default;
 $btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075) !default;
 $btn-focus-width: $input-btn-focus-width !default;
 $btn-focus-box-shadow: $input-btn-focus-box-shadow !default;
-$btn-disabled-opacity: 0.65 !default;
+$btn-disabled-opacity: 0.85 !default;
 $btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125) !default;
 
 $btn-link-color: $link-color !default;
