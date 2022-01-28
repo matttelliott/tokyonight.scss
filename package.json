@@ -1,5 +1,5 @@
 {
-  "name": "tokyo-night-bs",
+  "name": "tokyonight.scss",
   "version": "1.0.0",
   "description": "Bootstrapa theme based on tokyonight",
   "main": "tokyo-night.scss",
@@ -18,10 +18,13 @@
   "author": "Matt T Elliott <matt@matttelliott.com> (https://matttelliott.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matttelliott/tokyo-night-bs/issues"
+    "url": "https://github.com/matttelliott/tokyonight.scss/issues"
   },
-  "homepage": "https://github.com/matttelliott/tokyo-night-bs#readme",
+  "homepage": "https://github.com/matttelliott/tokyonight.scss#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "@fontsource/dejavu-mono": "^4.5.2",
+    "bootstrap": "^5.1.3",
+    "dejavu-sans": "^1.0.0",
+    "typeface-source-code-pro": "^1.1.13"
   }
 }
