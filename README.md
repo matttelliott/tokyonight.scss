@@ -11,6 +11,11 @@
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/matttelliott/tiny-redux/index.min.js">
 ```
+### As a SCSS module
+
+```scss
+@import '@matttelliott/tokyonight.scss';
+```
 
 ### As Bootstrap SCSS variables
 
