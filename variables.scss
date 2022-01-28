@@ -617,7 +617,7 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-monospace: 'DejaVu Mono', SFMono-Regular, Menlo,
+$font-family-monospace: 'DejaVu Mono', 'Source Code Pro', SFMono-Regular, Menlo,
   Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
 $font-family-sans-serif: $font-family-monospace !default;
 // stylelint-enable value-keyword-case
