@@ -9,7 +9,7 @@
 ### As plain CSS
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/matttelliott/tiny-redux/index.min.js">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/matttelliott/tokyonight.scss/tokyonight.css">
 ```
 ### As a SCSS module
 
